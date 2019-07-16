@@ -1,2 +1,2 @@
-# C-learning
+# C++-learning
 personal c++ learning note
