@@ -1,2 +1,1 @@
-# C++-learning
-personal c++ learning note
+未完待续
