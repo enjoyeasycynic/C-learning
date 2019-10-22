@@ -20,3 +20,15 @@ int main()
 	return 0;
 }
 ```
+c语言 出现的#if 0 是预编译指令，表示之后的代码不执行。
+
+C语言中预编译指令#if、#else和#endif指令一般配合使用。#if  后面的参数为真（非0）则执行#if  后面的模块。#if 后面的参数为假，则不执行#if 后面的模块。
+
+此指令多用在调试的时候，有段代码不想删除，怕后面用到所以用 #if 0 来暂时注释掉，如果想用的话就用#if 1 来开启；例如： #if true 执行 #endif  #if false 跳过 #endif。
+```c++
+#if condition
+  code1
+#else
+  code2
+#endif
+```
